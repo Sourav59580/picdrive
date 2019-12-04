@@ -1,0 +1,59 @@
+*:focus{
+    box-shadow: none !important;
+    outline: none;
+}
+body{
+    background-color:aquamarine;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Francois One', sans-serif;
+}
+input{
+    width:100% !important;
+    margin-bottom:20px;
+    padding: 12px 20px;
+    border:none;
+    background-color:white;
+    border-radius:50px;
+}
+.improve-security-btn{
+    background-color:aquamarine;
+}
+.generate-btn{
+    border-radius: 50px;
+    padding: 8px 20px;
+    background-color:white;
+    font-weight:bold;
+}
+.submit-btn{
+    background-color: black;
+    color: white;
+    padding:10px 20px;
+}
+.password_box,.email_box,.login_password_box{
+    width: 100% !important;
+    height:50px;
+    border-radius:50px;
+    border:none;
+    margin-bottom: 20px;
+    position: relative;
+}
+#password,#email,#login-password{
+    width: 100% !important;
+    padding: 12px 20px;
+    border: none;
+    border-radius:50px;
+    background-color: white;
+    position:absolute;
+}
+.show_icon,.email-loader,.password_show{
+ position: absolute;
+ top: 30%;
+ right:15px;
+ z-index: 1;
+ color: grey;
+ cursor: pointer;
+}
+.login-submit-btn{
+    border-radius:20px;
+}

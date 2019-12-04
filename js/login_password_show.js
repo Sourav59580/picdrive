@@ -1,0 +1,13 @@
+$(document).ready(function(){
+    $(".password_show").click(function(){
+        if($("#login-password").attr("type")=="text")
+        {
+            $("#login-password").attr("type","password");
+            $(".color_password").css({color:"grey"});
+        }
+        else{
+            $("#login-password").attr("type","text");
+            $(".color_password").css({color:"black"});   
+        }    
+    });
+});
